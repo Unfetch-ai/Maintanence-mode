@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+}
+
+.maintenance h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.maintenance p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.maintenance a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.maintenance a:hover {
+    text-decoration: none;
+    color: #ffcc00;
+}
